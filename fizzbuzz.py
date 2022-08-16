@@ -1,6 +1,9 @@
-for i range(1,16+1):
-    if i%3 == 0:
+for i range(1,1+16):
+    if i % 3 == 0 :
         print('fizz')
-    else
+    elif i % 5 == 0:
         print('buzz')
+    else:
+        print('i')
+    
 
